@@ -1,0 +1,21 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend build files
+node_modules/
+dist/
+
+# Backend build files
+target/
+
+# IDE and operating system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
